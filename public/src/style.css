@@ -41,8 +41,8 @@ body{
 .points{
     position: absolute;
     right: 0;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ body{
     .container{
         height: 350px;
         width: 350px;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
     .points{
         width: 50vw;
@@ -118,7 +118,7 @@ body{
     .container{
         height: 400px;
         width: 400px;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
     .points{
         width: 25vw;
@@ -133,7 +133,7 @@ body{
     .container{
         height: 400px;
         width: 400px;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
     .points{
         width: 25vw;
