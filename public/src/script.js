@@ -74,7 +74,7 @@ async function startGame() {
         container.style.backgroundColor = "#494949";
       }, 300);
       message.textContent = "Game Over!!!";
-      message.style.fontSize = "2rem";
+      message.style.fontSize = "1.2rem";
       showPoints();
       return;
     } else {

@@ -97,6 +97,7 @@ body{
     font-size: 0;
     font-weight: bold;
     transition: font-size 0.6s ease-in;
+    color: red;
 }
 
 @media (min-width: 360px) and (max-width: 600px){
