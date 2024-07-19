@@ -61,7 +61,7 @@ async function startGame() {
     var index = userData.length - 1;
 
     if (userData[index] !== comData[index] && stat) {
-      const audio = new Audio("../res/errorSound.mp3");
+      const audio = new Audio("./res/errorSound.mp3");
       audio.play();
       stat = 0;
       gameOver = 0;
@@ -79,7 +79,7 @@ async function startGame() {
       return;
     } else {
       if (index === comData.length - 1 && stat) {
-        const audio = new Audio("../res/pianoSound.mp3");
+        const audio = new Audio("./res/pianoSound.mp3");
         audio.play();
         container.style.backgroundColor = "#00F031";
         setTimeout(() => {
@@ -93,7 +93,7 @@ async function startGame() {
         userData = [];
         stat = 1;
       } else {
-        const audio = new Audio("../res/pianoSound.mp3");
+        const audio = new Audio("./res/pianoSound.mp3");
         audio.play();
         container.style.backgroundColor = "#00F031";
         setTimeout(() => {
