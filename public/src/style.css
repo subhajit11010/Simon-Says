@@ -1,11 +1,12 @@
 *{
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #494949;
+    padding: 0.2rem;
 }
 .container{
     position: relative;
@@ -107,7 +108,7 @@ body{
     .points{
         width: 50vw;
         left: 25vw;
-        bottom: 25%;
+        bottom: 0%;
     }
     .starter{
         margin-top: 2rem;
@@ -122,7 +123,7 @@ body{
     .points{
         width: 25vw;
         left: 37.9vw;
-        bottom: 20%;
+        bottom: 5%;
     }
     .starter{
         margin-top: 2rem;
@@ -137,7 +138,7 @@ body{
     .points{
         width: 25vw;
         left: 37.9vw;
-        bottom: 20%;
+        bottom: 5%;
     }
     .starter{
         margin-top: 2rem;
